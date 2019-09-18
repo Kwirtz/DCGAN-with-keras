@@ -3,17 +3,21 @@
 <p> Deep convolutional neural network on pokemons using keras functional API.</p>
 
 
-
-<p>First download the data from https://github.com/PokeAPI/sprites or run</p>
-
-```
-git clone https://github.com/PokeAPI/sprites.git
-```
-
-<p>Get the requirements (You can change tensorflow to tensorflow-gpu if you wish)</p>
+<h2>Pre-requisite</h2>
+<h3>Requirements</h3>
+<p>You can change tensorflow to tensorflow-gpu if you wish</p>
 
 ```
 pip install -r requirements.txt
+```
+
+
+<h3>Data</h3>
+
+<p>Download the data from https://github.com/PokeAPI/sprites or run</p>
+
+```
+git clone https://github.com/PokeAPI/sprites.git
 ```
 
 <p> Run resize.py to homogenize the shape of data (Note that you could also use the functionality of keras to resize) </p>
@@ -22,18 +26,22 @@ pip install -r requirements.txt
 python resize.py
 ```
 
-<p>Once all this is done you shoulda have a resizedData folder and you can proceed to run dcgan.py</p>
+<h2>Training</h2>
+
+<p>Once all this is done you should have a resizedData folder and you can proceed to run dcgan.py</p>
 
 ```
 python dcgan.py
 ```
-
-<p> The results appear in generated_images and you can generate a new image (generated.png) using generate.py </p>
+<h2>Results</h2>
+<p> The results appear in generated_images and you can generate a new image (generated.png) using generate.py <br>
+generate.py make use of the checkpoint folder, maker sure the name of the model is the same in checkpoint and generate.py</p>
 
 <p> Results : </p>
 <img src="https://raw.githubusercontent.com/Kwirtz/DCGAN-with-keras/master/generated_images/generatedSamples_epoch176.png" width="400" height="200" />
 
-<p> Ressources i used to create this repository: </p>
+
+<h2>Ressources</h2>
 
 -https://github.com/eriklindernoren/Keras-GAN <br>
 -https://github.com/keras-team/keras-contrib/blob/master/examples/improved_wgan.py <br>
