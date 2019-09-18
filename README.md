@@ -35,9 +35,9 @@ python dcgan.py
 
 <p> Ressources i used to create this repository: </p>
 
-https://github.com/eriklindernoren/Keras-GAN
-https://github.com/keras-team/keras-contrib/blob/master/examples/improved_wgan.py
-https://github.com/jacobgil/keras-dcgan/blob/master/dcgan.py
-https://github.com/Neerajj9/DCGAN-Keras
-https://github.com/davidreiman/mnist-wgan
+-https://github.com/eriklindernoren/Keras-GAN <br>
+-https://github.com/keras-team/keras-contrib/blob/master/examples/improved_wgan.py <br>
+-https://github.com/jacobgil/keras-dcgan/blob/master/dcgan.py <br>
+-https://github.com/Neerajj9/DCGAN-Keras <br>
+-https://github.com/davidreiman/mnist-wgan <br>
 
