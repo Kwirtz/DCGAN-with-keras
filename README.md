@@ -31,7 +31,7 @@ python dcgan.py
 <p> The results appear in generated_images and you can generate a new image (generated.png) using generate.py </p>
 
 <p> Results : </p>
-<img src="https://raw.githubusercontent.com/Kwirtz/DCGAN-with-keras/master/generated_images/generatedSamples_epoch176.png" width="800" height="400" />
+<img src="https://raw.githubusercontent.com/Kwirtz/DCGAN-with-keras/master/generated_images/generatedSamples_epoch176.png" width="400" height="200" />
 
 <p> Ressources i used to create this repository: </p>
 
